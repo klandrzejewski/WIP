@@ -114,7 +114,7 @@ def generate_launch_description():
         ),
         webots,
         webots._supervisor,
-        waiting_nodes,
+        # waiting_nodes,
 
         # robot_state_publisher,
         # footprint_publisher,
