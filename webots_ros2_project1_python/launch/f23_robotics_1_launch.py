@@ -94,10 +94,10 @@ def generate_launch_description():
     # )
 
     # Wait for the simulation to be ready to start controllers
-    waiting_nodes = WaitForControllerConnection(
-        target_driver=turtlebot_driver,
-        nodes_to_start= ros_control_spawners
-    )
+    # waiting_nodes = WaitForControllerConnection(
+    #     target_driver=turtlebot_driver,
+    #     nodes_to_start= ros_control_spawners
+    # )
 
 
 
